@@ -1,0 +1,36 @@
+h2 {
+    color: #A24D4D;
+}
+
+.card {
+    margin-bottom: 40px;
+}
+
+.card-title {
+    color: #707070;
+    text-align: center;
+}
+
+.card-text {
+    color: #707070;
+}
+
+p {
+    color: #333;
+    font-size: 1.1em;
+}
+
+p a {
+    color: #A24D4D!important;
+}
+
+.tarjeta {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width:1200px) and (max-width: 1293px) {
+    .people {
+        padding-bottom: 50px!important;
+    }
+}

@@ -1,0 +1,80 @@
+ .contacto {
+     height: 700px;
+     background-image: url('https://firebasestorage.googleapis.com/v0/b/inovix-fc770.appspot.com/o/src%2Fimg%2Fcontacto%2Fcontacto.png?alt=media&token=da1a7abd-155f-4c9f-8136-a8ca2b2a4a38');
+     background-position: center;
+     padding: 60px 0;
+     margin-bottom: 40px;
+ }
+  
+ .contacto-textos {
+     text-align: center;
+     color: #fff;
+     font-size: 2rem;
+     padding-bottom: .4em;
+ }
+  
+ form {
+     display: flex;
+     flex-direction: column;
+     margin: auto;
+     width: 70%;
+ }
+  
+ .contacto input[type="text"],
+ .contacto input[type="email"],
+ .contacto input[type="number"],
+ .contacto textarea {
+     width: 100%;
+     margin: 5px 0;
+     padding: 15px 20px;
+     background: none;
+     border-radius: 5px;
+     color: rgb(204, 204, 204);
+     border: 2px solid rgba(204, 204, 204, 0.383);
+     font-weight: 300;
+     height: 100%!important;
+ }
+  
+ ::placeholder {
+     color: #fff;
+ }
+  
+ textarea {
+     height: 150px;
+     max-height: 150px;
+     max-width: 100%;
+     min-width: 100%;
+     min-height: 150px;
+     background: none;
+     padding: 15px 20px;
+     color: rgb(204, 204, 204);
+     border: 2px solid rgba(204, 204, 204, 0.383);
+ }
+  
+ .derecha {
+     display: flex;
+     justify-content: flex-end;
+ }
+  
+ .contacto input[type="submit"] {
+     display: block;
+     width: 100px;
+     margin: 10px 0;
+     padding: 10px 15px;
+     background: none;
+     border: 1px solid #15a4fa;
+     border-radius: 5px;
+     color: #fff;
+     cursor: pointer;
+     float: right;
+ }
+  
+ .contacto input[type="submit"]:hover {
+     background: #15a4fa;
+     color: #fff;
+ }
+  
+ section {
+     height: 200px;
+     background: #000;
+ }

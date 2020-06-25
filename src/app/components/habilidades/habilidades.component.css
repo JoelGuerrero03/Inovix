@@ -1,0 +1,100 @@
+.container {
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 100%;
+}
+
+.habilidades {
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-radius: 1px solid #574141;
+}
+
+.front-end,
+.back-end,
+.otros {
+    display: block;
+    text-align: center;
+}
+
+
+/* i {
+  padding-left: 10px;
+  font-size: 3em;
+} */
+
+.fa-angular {
+    color: #b52e31;
+    padding-left: 10px;
+    font-size: 3em;
+}
+
+.fa-css3 {
+    color: #0099e5;
+    padding-left: 10px;
+    font-size: 3em;
+}
+
+.fa-html5 {
+    color: #e34f26;
+    padding-left: 10px;
+    font-size: 3em;
+}
+
+.fa-bootstrap {
+    color: #780a5b;
+    padding-left: 10px;
+    font-size: 3em;
+}
+
+.fa-js-square {
+    color: #f7df1e;
+    padding-left: 10px;
+    font-size: 3em;
+}
+
+.fa-sass {
+    color: #ce00ff;
+    padding-left: 10px;
+    font-size: 3em;
+}
+
+.fa-wordpress {
+    color: #21759b;
+    padding-left: 10px;
+    font-size: 3em;
+}
+
+.fa-php {
+    color: #8892be;
+    padding-left: 10px;
+    font-size: 3em;
+}
+
+.fa-linux {
+    color: #d1ac17;
+    padding-left: 10px;
+    font-size: 3em;
+}
+
+.fa-windows {
+    color: #0078d7;
+    padding-left: 10px;
+    font-size: 3em;
+}
+
+.fa-network-wired {
+    color: #ec1944;
+    padding-left: 10px;
+    font-size: 3em;
+}
+
+i.node img,
+i.mongo img,
+i.mysql img,
+i.firebase img {
+    margin-top: -40px;
+    padding-left: 10px;
+}

@@ -1,0 +1,50 @@
+footer .redes-sociales {
+    background-color: #1e2b38;
+    padding: 60px 0;
+}
+
+footer .redes-sociales .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes-sociales a {
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+@media screen and (min-width: 800px) {
+    .whatsap {
+        display: none!important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .github {
+        display: none!important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    footer .redes-sociales .facebook:hover {
+        background-color: #3b5998;
+    }
+    footer .redes-sociales .linkedin:hover {
+        background-color: #0077b5;
+    }
+    footer .redes-sociales .instagram:hover {
+        background-color: #3f729b;
+    }
+    footer .redes-sociales .whatsap:hover {
+        background-color: #075e54;
+    }
+    footer .redes-sociales .github:hover {
+        background-color: #333;
+    }
+}

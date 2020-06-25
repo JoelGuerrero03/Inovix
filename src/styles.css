@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h4,
+h5,
+p {
+    font-display: swap;
+}
+
+h1 {
+    font-family: 'Open Sans';
+    font-size: 4em;
+}
+
+h2,
+h4,
+h5 {
+    font-family: 'PT Sans';
+    text-align: center;
+    font-display: swap;
+}
+
+.titulo-header,
+.texto-header,
+.acerca-de-btn {
+    color: #fff;
+}
+
+p {
+    font-family: 'PT Sans';
+    text-align: center;
+}
+
+@font-face {
+    font-display: swap;
+}
